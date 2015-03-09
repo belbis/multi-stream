@@ -1,7 +1,7 @@
 a read stream that can add multiple streams/strings
 
 
-[![NPM Version](https://nodei.co/npm/multi-stream.png?downloads=true)](https://npmjs.org/package/multi-stream)
+[![NPM Version](https://nodei.co/npm/node-multistream.png?downloads=true)](https://npmjs.org/package/node-multistream)
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/belbis/multi-stream)
 
