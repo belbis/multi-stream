@@ -1,0 +1,16 @@
+{
+  "name": "multi-stream",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "nodeunit test",
+    "coveralls": "jscoverage src && MS_COV=1 nodeunit test --reporter=lcov | coveralls",
+    "jscoverage": "jscoverage src",
+    "jslint": "jslint --nomen true --indent 2 --no-plusplus false src/multistream.js"
+  },
+  "devDependencies": {
+    "nodeunit": "0.9.1",
+    "coveralls": "2.11.2",
+    "jscoverage": "0.5.9",
+    "jslint": "0.9.0"
+  }
+}
