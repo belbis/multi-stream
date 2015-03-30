@@ -1,6 +1,6 @@
 {
   "name": "node-multistream",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "test": "nodeunit test",
     "coveralls": "jscoverage src && MS_COV=1 nodeunit test --reporter=lcov | coveralls",
@@ -11,6 +11,6 @@
     "nodeunit": "0.9.1",
     "coveralls": "2.11.2",
     "jscoverage": "0.5.9",
-    "jslint": "0.9.0"
+    "jslint": "~0.9.0-pre006"
   }
 }
