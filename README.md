@@ -32,8 +32,8 @@ MultiStream works with any stream, but also with strings
 // standard imports
 var stream = require("stream");
 
-// local imports
-var MS = require(__dirname + "/../").MultiStream;
+// npm imports
+var MS = require("node-multistream");
 
 var ms = new MS();
 
@@ -52,4 +52,5 @@ ms.pipe(process.stdout);
 ## Future
 
 chunked data reads
+
 allow for silent fail
