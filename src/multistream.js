@@ -87,7 +87,3 @@ MultiStream.prototype._die = function (err) {
 module.exports = {
   MultiStream: MultiStream
 };
-
-
-
-
